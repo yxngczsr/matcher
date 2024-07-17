@@ -1,0 +1,63 @@
+### Pré-Requisitos ###
+- Android Studio
+- Firebase Console
+
+### Environment ###
+
+   ## Firebase Console ##
+
+    # Passos para Configurar Firebase
+
+    1. **Crie uma Conta Firebase:**
+       - Vá para [firebase.google.com](https://firebase.google.com) e crie uma conta, se ainda não tiver uma.
+
+    2. **Crie um Novo Projeto Firebase:**
+       - No console do Firebase, clique em "Adicionar projeto" e siga as instruções para criar um novo projeto.
+
+    3. **Adicione o Aplicativo Android ao Projeto:**
+       - No projeto criado, adicione um novo aplicativo Android.
+       - Use o nome do pacote: `com.example.reg_login`.
+
+    4. **Baixe o Arquivo `google-services.json`:**
+       - Após registrar o aplicativo, baixe o arquivo `google-services.json`.
+
+    5. **Substitua o Arquivo `google-services.json` no Projeto:**
+       - Substitua o arquivo `google-services.json` existente no diretório `app/` pelo novo arquivo baixado.
+
+    6. **Configure Firebase Authentication:**
+       - No console do Firebase, habilite os provedores de autenticação necessários (Email/Password).
+
+    7. **Configure Firestore Database:**
+       - Crie as coleções e campos no Firestore Database conforme necessário. Veja abaixo as coleções e campos deste projeto:
+
+        ## Estrutura do Firestore Database
+
+        - **Collection `users`:**
+          - Campos: `email` (string), `password` (string)
+
+        - **Collection `football`:**
+          - Campos: `universityName` (string), `location` (string), `hours` (string), `contact` (string)
+
+        - **Collection `reservas`:**
+          - Campos: `id` (string), `userId` (string), `campId` (string), `date` (string), `time` (string)
+
+    ## Dependências do Firebase
+
+    Verifique se as seguintes dependências estão adicionadas ao arquivo `build.gradle` (app):
+
+    ```gradle
+    dependencies {
+        implementation 'com.google.firebase:firebase-auth:22.3.1'
+        implementation 'com.google.firebase:firebase-firestore:25.0.0'
+        // Outras dependências
+    }
+
+
+
+
+
+
+
+
+
+

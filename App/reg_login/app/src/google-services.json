@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "348387750776",
+    "project_id": "reg-login-92cd1",
+    "storage_bucket": "reg-login-92cd1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:348387750776:android:a09a26760ce0c592190e8d",
+        "android_client_info": {
+          "package_name": "com.example.reg_login"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsu_VQoOQym-erW_UZq-AobYiFNqNRxl0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:348387750776:android:b5bbe531d6ab0470190e8d",
+        "android_client_info": {
+          "package_name": "com.example.reg_login2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsu_VQoOQym-erW_UZq-AobYiFNqNRxl0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
